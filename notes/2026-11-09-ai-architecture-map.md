@@ -24,11 +24,11 @@ Three layers. Learn them in order, but build across all three from week one.
 - Latency and cost: streaming, prompt caching, model routing.
 - Reliability: input validation, output filtering, retries, fallbacks.
 - Observability: log every prompt and response, trace tool calls, track token spend per feature.
-- Data boundaries: what leaves the system, PII handling, tenant isolation. In payments and KYC this is the whole game.
+- Data boundaries: what leaves the system, PII handling, tenant isolation. Matters in every domain that touches real users.
 
-## Why this matters for fintech
+## Why layer 3 gets the most attention
 
-Regulators (RBI FREE-AI, draft model risk guidance, DPDP, EU AI Act, MAS) converge on the same controls: model inventory, explainability, incident reporting, human oversight. Layer 3 is where those controls live. Most AI pilots stall on integration and governance, not model quality.
+Most AI pilots stall on integration, reliability, and governance, not on model quality. Regulated domains (finance, health, legal) make this visible first because their regulators demand model inventory, explainability, incident reporting, and human oversight, but the same controls are what make any AI system trustworthy in production.
 
 ## Next
 
